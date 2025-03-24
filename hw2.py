@@ -19,5 +19,5 @@ def get_integer(prompt):
     res=int(input(prompt))
     return res;     
 
-total_cost=int(input('동전으로 교환하고자 하는 금액은?'))
+total_cost=get_integer('동전으로 교환하고자 하는 금액은?')
 exchange(total_cost) 
