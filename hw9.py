@@ -1,25 +1,4 @@
-'''
-class Point:
-    def __init__(self, x=0, y=0):
-        self.__x=x
-        self.__y=y
-    def show(self):
-        print(f'({self.__x}, {self.__y})')
-    def set(self, x, y):
-        self.__x=x
-        self.__y=y
-    def get(self):
-        return (self.__x, self.__y)
-class Rectangle:
 
-
-
-r1 = Rectangle(5, 5, 20, 10)
-a = r1.getArea()
-p = r1.getPerimeter()
-r1.show()
-print(f'\n넓이는 {a}, 둘레는 {p}')
-'''
 class Point:
     def __init__(self, x, y):
         self.x = x
